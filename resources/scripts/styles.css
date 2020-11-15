@@ -1,0 +1,145 @@
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+  overflow: hidden;
+  margin: 0; /* important sinon c'est décalé */
+  padding: 0; /* important sinon c'est décalé */
+}
+.background{
+  position: absolute !important;
+  top: -20px !important;
+  left:-35px  !important;
+}
+.basic_floor{
+  position: absolute !important;
+  left: -1000px !important;
+  top: 980px !important;
+}
+.character{
+  position: absolute !important;
+  left: 500px !important;
+  top: 780px !important;
+}
+.moonlord{
+  position: absolute !important;
+  left: 700px !important;
+  top: 100px !important;
+}
+
+
+ .trueeye1{
+  position: absolute !important;
+  left: 600px !important;
+  top: 150px !important;
+}
+.trueeye2{
+  position: absolute !important;
+  left: 800px !important;
+  top: 250px !important;
+}
+.trueeye3{
+  position: absolute !important;
+  left: 700px !important;
+  top: 400px !important;
+}
+.trueeye4{
+  position: absolute !important;
+  left: 1300px !important;
+  top: 600px !important;
+}
+.trueeye5{
+  position: absolute !important;
+  left: 1000px !important;
+  top: 500px !important;
+}
+.trueeye6{
+  position: absolute !important;
+  left: 1700px !important;
+  top: 500px !important;
+}
+.trueeye7{
+  position: absolute !important;
+  left: 1830px !important;
+  top: 150px !important;
+}
+.trueeye8{
+  position: absolute !important;
+  left: 1500px !important;
+  top: 200px !important;
+}
+.trueeye9{
+  position: absolute !important;
+  left: 1550px !important;
+  top: 850px !important;
+}
+
+
+.ultimateprism{
+  position: absolute !important;
+  left: 555px !important;
+  top: 920px !important;
+}
+.ultimateprismparticles{
+  position: absolute !important;
+  left: 1150px !important;
+  top: 200px !important;
+}
+.stardustdragon{
+  position: absolute !important;
+  left: 200px !important;
+  top: 200px !important;
+}
+.grass1{
+  position: absolute !important;
+  left: 100px !important;
+  top: 933px !important;
+}
+.grass2{
+  position: absolute !important;
+  left: 300px !important;
+  top: 933px !important;
+}
+.grass3{
+  position: absolute !important;
+  left: 700px !important;
+  top: 933px !important;
+}
+.grass4{
+  position: absolute !important;
+  left: 750px !important;
+  top: 933px !important;
+}
+.grass5{
+  position: absolute !important;
+  left: 1000px !important;
+  top: 933px !important;
+}
+.grass6{
+  position: absolute !important;
+  left: 1250px !important;
+  top: 933px !important;
+}
+.grass7{
+  position: absolute !important;
+  left: 1560px !important;
+  top: 933px !important;
+}
+.grass8{
+  position: absolute !important;
+  left: 1800px !important;
+  top: 933px !important;
+}
+.grass9{
+  position: absolute !important;
+  left: 1850px !important;
+  top: 933px !important;
+}
+.moon{
+  position: absolute !important;
+  left: 100px !important;
+  top: 0px !important;
+}
