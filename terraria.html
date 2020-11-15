@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Terraria Parallax Background</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="./resources/scripts/styles.css"/>
+
+</head>
+<body>
+	
+<!--Marche mais que pour un layer	<div id="scene" class="floor_position"><div data-depth="0.5" class="floor"></div></div> -->
+
+	<div id="container" class="wrapper">
+		<div id="scene">
+			<div data-depth="0.10" class="nothing"><img src="./resources/images/None.png" style="width: 1920px; height: 1080px;"></div>
+			<div data-depth="0.10" class="background"><img src="./resources/images/StartMenuBackground.jpg" style="width:1990; height: 1120px;"></div>
+			<div data-depth="0.10" class="background"><img src="./resources/images/alpha moitié.png" style="width:1990; height: 1120px;"></div>
+			<div data-depth="0.20" class="moon"><img src="./resources/images/Moon.png" style="width: 200px; transform-origin: top left; transform: rotate(30deg);"></div>
+			<div data-depth="0.30" class="moonlord"><img src="./resources/images/MoonLord.png" style="height: 1000px;"></div>
+			<!--true eye of chtulluh-->
+			<div data-depth="0.55" class="trueeye1"><img src="./resources/images/TrueEyeOfCthulhu.png" style="height: 100px;"></div>
+			<div data-depth="0.64" class="trueeye2"><img src="./resources/images/TrueEyeOfCthulhu.png" style="height: 100px;"></div>
+			<div data-depth="0.48" class="trueeye3"><img src="./resources/images/TrueEyeOfCthulhu.png" style="height: 100px;"></div>
+			<div data-depth="0.60" class="trueeye4"><img src="./resources/images/TrueEyeOfCthulhu.png" style="height: 100px;"></div>
+			<div data-depth="0.50" class="trueeye5"><img src="./resources/images/TrueEyeOfCthulhu.png" style="height: 100px;"></div>
+			<div data-depth="0.42" class="trueeye6"><img src="./resources/images/TrueEyeOfCthulhu.png" style="height: 100px;"></div>
+			<div data-depth="0.61" class="trueeye7"><img src="./resources/images/TrueEyeOfCthulhu.png" style="height: 100px;"></div>
+			<div data-depth="0.47" class="trueeye8"><img src="./resources/images/TrueEyeOfCthulhu.png" style="height: 100px;"></div>
+			<div data-depth="0.59" class="trueeye9"><img src="./resources/images/TrueEyeOfCthulhu.png" style="height: 100px;"></div>
+			<div data-depth="0.90" class="ultimateprism"><img src="./resources/images/UltimatePrism.png" style="height: 50px; transform-origin: top left; transform: rotate(-45deg);"></div>
+			<div data-depth="0.80" class="ultimateprismparticles"><img src="./resources/images/UltimatePrismParticles.png" style="height: 200px; transform-origin: top left; transform: rotate(-45deg);"></div>
+			<!--grass-->
+			<div data-depth="1.00" class="grass1"><img src="./resources/images/Grass1.png" style="height:50px;"></div>
+			<div data-depth="1.00" class="grass2"><img src="./resources/images/Grass2.png" style="height:50px;"></div>
+			<div data-depth="1.00" class="grass3"><img src="./resources/images/Grass1.png" style="height:50px;"></div>
+			<div data-depth="1.00" class="grass4"><img src="./resources/images/Grass1.png" style="height:50px;"></div>
+			<div data-depth="1.00" class="grass5"><img src="./resources/images/Grass2.png" style="height:50px;"></div>
+			<div data-depth="1.00" class="grass6"><img src="./resources/images/Grass2.png" style="height:50px;"></div>
+			<div data-depth="1.00" class="grass7"><img src="./resources/images/Grass1.png" style="height:50px;"></div>
+			<div data-depth="1.00" class="grass8"><img src="./resources/images/Grass2.png" style="height:50px;"></div>
+			<div data-depth="1.00" class="grass9"><img src="./resources/images/Roses.png" style="height:50px;"></div>
+			<!---->
+			<div data-depth="1.00" class="basic_floor"><img src="./resources/images/BasicFloor.png" style="height:150px; border-bottom: solid black 50px;"></div>
+			<div data-depth="1.00" class="character"><img src="./resources/images/Me.png" style="height: 200px;"></div>
+			<div data-depth="1.50" class="stardustdragon"><img src="./resources/images/StardustDragon.png" style="width: 300px; transform-origin: top left; transform: rotate(20deg);"></div>
+		</div>
+	</div>
+
+
+	<!-- Scripts -->
+	<script src="./resources/scripts/parallax.min.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
+</body>
+</html>
